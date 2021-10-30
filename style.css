@@ -1,0 +1,157 @@
+body{
+	font-style: sans-serif;
+}
+
+.container{
+	width: 50%;
+	margin: auto ;
+}
+
+.header h1{
+	text-align: center;
+}
+
+.navigation li{
+	cursor: pointer;
+	margin-right: 40px;
+	height: 35px;
+	padding-left: 40px;
+	list-style: none;
+	float: left;
+	
+}
+
+.navigation{
+	margin-bottom: 20px;
+	width: 100%;
+	height: 25px;
+	padding-bottom: 5px;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 61%, rgba(0, 212, 255, 1) 100%);
+}
+
+ul li{
+	padding-left: 80px;
+	list-style: none;
+	display: inline-block;
+}
+
+a{
+	color: white;
+	border: 0px solid ;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color:rgb(110, 88, 88);
+}
+
+.content{
+	width: 100%;
+	height: 204px;
+}
+.content-top{
+
+	display: inline-block;
+}
+
+.content-top-item {
+	width: 20%;
+	float: left;
+	margin-right: 30px;
+}
+
+.content-top-img{
+	width: 20%;
+}
+
+.content-top-img img{
+	width: 100px;
+}
+
+.content-top-text{
+	font-size: 15px;
+	position: static;
+	font-weight: bold;
+
+}
+
+#fixed-header{
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	box-shadow: 0px 0px 5px grey;
+	background-color: white;
+}
+
+.header-img{
+	margin-top: 40px;
+}
+
+.img-content-top{
+	height: 70px;
+}
+
+.content-bottom{
+	width: 200;
+
+}
+
+.footer{
+	width: 100%;
+	background-color: turquoise;
+	display: inline-block;
+}
+
+.footer p{
+	padding: auto;
+	text-align: center;
+}
+.content-left{
+	float: left;
+	width: 50%;
+}
+.content-right{
+	float: left;
+	width: 50%;
+}
+
+.fitur-img-wrapper{
+	height: 350px;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+
+.fitur-img{
+	background-image: url(image/tutu.jpg);
+	transition: all .5s;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+}
+
+.fitur-img:hover , .fitur-img:focus{
+	transform:scale(1.2);
+}
+
+.fitur-text{
+	height: 60px;
+	background-color: rgba(9, 9, 121, 1);
+}
+
+.fitur{
+	margin-bottom: 32px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.fitur-title-wrapper{
+	position: absolute;
+	bottom: 0;
+}
